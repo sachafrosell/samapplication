@@ -14,35 +14,38 @@
 
   <!--========== HEADER ==========-->
 
-  <header class="l-header" id="header">
 
-    <!--navbar-->
-    <nav class="home ">
-      <div class="navbar-links nav bd-container menu-btn">
-        <ul>
-          <li class="nav__item menu-icon"><a href="#home" class="nav__link active-link "><i class="fas fa-home navicon "></i>&nbspHome</a>
-          </li>
-          <li class="nav__item"><a href="#about" class="nav__link"></i><i class="fas fa-user"></i>&nbspAbout</a>
-          </li>
-          <li class="nav__item"><a href="#application" class="nav__link"><i class="fas fa-pencil-ruler"></i>&nbspJavascript Example</a>
-          </li>
 
-          <li class="nav__item"><a href="#contact" class="nav__link"><i class="fas fa-address-book"></i>&nbspContact</a>
-          </li>
-          <li><i class="dark-toggle fas fa-adjust" id="theme-button"></i>
-          </li>
-          <!--dark toggle-->
-          <div class="nav__toggle" id="nav-toggle">
-            <i class='bx bx-menu'></i>
-          </div>
-        </ul>
-      </div>
-    </nav>
+  <div id="content">
+      <img id="theme-button" class="ribbon" src="images/doge.png">
+  </div>
+  <nav role="navigation" style="position:fixed">
+  <div id="menuToggle">
 
-  </header>
+    <input type="checkbox" />
+    <div style="z-index:10001">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+
+
+    <ul id="menu">
+      <a href="#home"><li>Home</li></a>
+      <a href="#about"><li>About</li></a>
+      <a href="#application"><li>Slideshow</li></a>
+      <a href="#contact"><li>Contact</li></a>
+
+    </ul>
+  </div>
+</nav>
 
   <!--========== HOME ==========-->
+  <div class="navcolor"></div>
+
   <section class="home" id="home">
+
     <div class="home__container bd-container bd-grid">
       <div class="home__data">
         <h1 class="home__title">I’m Samir Tlidi</h1>
